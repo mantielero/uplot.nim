@@ -3,7 +3,8 @@ This library wraps javascript library [μPlot](https://github.com/leeoniya/uPlot
 
 This library enables plotting time series [like this](https://leeoniya.github.io/uPlot/demos/index.html).
 
-
+As an example, the following animation shows how two series of 650000 points are loaded and shown interactively in the browser. It takes about 5sec to load and then it works really well:
+![](output.gif)
 
 
 
