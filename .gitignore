@@ -1,3 +1,14 @@
 nimcache/
 nimblecache/
 htmldocs/
+examples/app*
+examples/b*
+examples/t*
+examples/s*
+examples/ex03*
+examples/heart*
+examples/heart*
+examples/borrame*
+examples/uPlot*
+examples/js/*
+examples/demos/*
