@@ -34,6 +34,11 @@ proc makeChart() =
   axe1.label("Day")
   axe1.top
   axe1.stroke("red")
+
+  var g = Grid( show: true, width:2'u, dash: @[10'u, 5] )
+  g.rgba(0,255,0,0.2)
+  axe1.setGrid(g)
+    
   opts.setAxes( axe1 )
 
 

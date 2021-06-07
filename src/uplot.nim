@@ -1,4 +1,6 @@
 import jsffi, dom, strformat
+import options/[grid]  # [common, grid, axes, ticks, series, scale]
+export grid #common, grid, axes, ticks, series, scale
 
 when not defined(js):
   {.error: "This module only works on the JavaScript platform".}
@@ -9,7 +11,7 @@ type
   Scale*        = ref object of JsObject
   Serie*        = ref object of JsObject 
   Axe*          = ref object of JsObject
-  Grid*         = ref object of JsObject
+  #Grid*         = ref object of JsObject
   Tick*         = ref object of JsObject
 
 
