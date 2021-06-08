@@ -1,194 +1,29 @@
 import jsffi, dom, strformat
+import options/[axes, grid, scale, serie, tick, uplotoptions]
+export axes, grid, scale, serie, tick, uplotoptions
 
 when not defined(js):
   {.error: "This module only works on the JavaScript platform".}
 
 type
-  Uplot*        = ref object of JsObject
-  UplotOptions* = ref object of JsObject
-  Scale*        = ref object of JsObject
-  Serie*        = ref object of JsObject 
-  Axe*          = ref object of JsObject
-  Grid*         = ref object of JsObject
-  Tick*         = ref object of JsObject
+  Uplot* = ref object of JsObject
+
+
 
 
 proc newUplot*(opts:UplotOptions, data:JsObject, element:Element): Uplot {. importcpp: "new uPlot(@)" .}
 
-proc newUplotOptions*():UplotOptions =
-  result = UplotOptions()
-  result["scales"] = newJsObject()
-
-proc title*(opts:var UplotOptions, title:string) =
-  opts["title"] = title.cstring
-
-proc width*(opts:var UplotOptions, width:uint) =
-  opts["width"] = width
-
-proc height*(opts:var UplotOptions, height:uint) =
-  opts["height"] = height
-
-proc setId*(opts:var UplotOptions, id:string) =
-  opts["id"] = id.cstring
-
-proc setClass*(opts:var UplotOptions, cls:string) =
-  opts["class"] = cls.cstring
-
-#-------------
-proc addScale*(opts:var UplotOptions, name:string, scale:Scale) =
-  opts["scales"][name] = scale
-
-proc unsetTimeScale*(scale:var Scale) =
-  ## by default it is a time scale. This function change it to plan numbers
-  scale["time"] = false
 
 
-proc setMinMax(scale:var Scale; min, max:int) =
-  scale["auto"] = false # Disables autorange
-  scale["range"] = [min, max].toJs
-
-proc setIndexed(scale:var Scale) =
-  ## avoids empty gaps (example weekends)
-  scale["distr"] = 2
-
-#-------------------------
-proc setSeries*(opts:var UplotOptions, series: varargs[Serie]) =
-  var tmp = @[Serie()]
-  for i in series.items:
-    tmp &= i
-  opts["series"] = tmp.toJs
-
-proc label*(serie:var Serie, label:string) =
-  serie["label"] = label.cstring
-
-proc show*(serie:var Serie) =
-  serie["show"] = true
-
-proc hide*(serie:var Serie) =
-  serie["show"] = false
-
-proc setScale*(serie:var Serie, scale:string) =
-  serie["scale"] = scale.cstring
-
-proc unsetSpanGaps*(serie:var Serie) = 
-  serie["spanGaps"] = false
-
-proc setSpanGaps*(serie:var Serie) = 
-  ## connects `null` data points
-  serie["spanGaps"] = true
-
-proc stroke*(serie:var Serie, stroke:string) =
-  serie["stroke"] = stroke.cstring 
-
-proc width*(serie: var Serie, width:uint) =
-  serie["width"] = width
-
-proc fill*(serie: var Serie; r,g,b:range[0..255]; alpha:float = 1.0) =
-  assert alpha >= 0.0
-  assert alpha <= 1.0
-  let tmp = &"rgba({r}, {g}, {b}, {alpha})"
-  serie["fill"] = tmp.cstring
-  #echo &"rgba({r}, {g}, {b}, {alpha})#"
-
-proc dash*(serie: var Serie; max,min:uint) =
-  serie["dash"] = [max, min]
-
-template val*(body:untyped):untyped =
-  (proc (self {.inject.}:JsObject, rawValue {.inject.}:int):cstring = 
-     (body).cstring
-  )
-
-proc value*(serie: var Serie; lbd: proc (self:JsObject, rawValue:int):cstring) =
-  serie["value"] = lbd
 
 
-#----- Axes
-proc setAxes*(opts:var UplotOptions, axes: varargs[Axe]) =
-  var tmp = newSeq[Axe]() #@[Axe()]
-  for i in axes.items:
-    tmp &= i
-  opts["axes"] = tmp.toJs
-
-proc label*( axe:var Axe, label:string) =
-  axe["label"] = label.cstring
-
-proc stroke*(axe:var Axe, stroke:string) =
-  axe["stroke"] = stroke.cstring
-
-proc scale*(axe:var Axe, scale:string) =
-  axe["scale"] = scale.cstring
-
-proc top*(axe:var Axe) =
-  axe["side"] = 0
-
-proc right*(axe:var Axe) =
-  axe["side"] = 1
-
-proc bottom*(axe:var Axe) =
-  axe["side"] = 2
-
-proc left*(axe:var Axe) =
-  axe["side"] = 3
-
-proc show*(axe:var Axe) =
-  axe["show"] = true
-
-proc hide*(axe:var Axe) =
-  axe["show"] = false
-
-proc labelSize*(axe:var Axe, size:uint) =
-  axe["labelSize"] = size
-
-proc labelFont*(axe:var Axe, font:string) =
-  axe["labelFont"] = font
-
-proc font*(axe:var Axe, font:string) =
-  axe["font"] = font
-
-proc gap*(axe:var Axe, gap:uint) =
-  axe["gap"] = gap
-
-proc size*(axe:var Axe, size:uint) =
-  axe["size"] = size
-
-proc setGrid*(axe:var Axe, grid:Grid) =
-  axe["grid"] = grid
-
-#--- Grid
-proc show*(g:var Grid) =
-  g["show"] = true
-
-proc hide*(g:var Grid) =
-  g["show"] = false
-
-proc stroke*(g:var Grid, color:string) =
-  g["stroke"] = color.cstring
 
 
-proc width*(g:var Grid, width:uint) =
-  g["width"] = width
 
-proc dash*(g:var Grid, min,max:uint) =
-  g["dash"] = ([min,max]).toJs
 
-#--- Ticks
-proc show*(t:var Tick) =
-  t["show"] = true
 
-proc hide*(t:var Tick) =
-  t["show"] = false
 
-proc stroke*(t:var Tick, color:string) =
-  t["stroke"] = color.cstring
 
-proc width*(t:var Tick, width:uint) =
-  t["width"] = width
-
-proc size*(t:var Tick, size:uint) =
-  t["size"] = size
-
-proc dash*(t:var Tick; min,max:uint) =
-  t["dash"] = ([min,max]).toJs
 
 
 #----- TODO: High/Low bands

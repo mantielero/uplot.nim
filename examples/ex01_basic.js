@@ -2,7 +2,7 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
-var NTI503316493 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI905969667 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555103 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555114 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI805316300 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
@@ -21,14 +21,14 @@ var NTI33555101 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555102 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555113 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33554438 = {size: 0,kind: 28,base: null,node: null,finalizer: null};
-var NTI503316492 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI503316491 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI956301315 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI939524099 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555072 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555177 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI536870992 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI503316490 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NNI503316490 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI503316490.node = NNI503316490;
+var NTI989855747 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NNI989855747 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI989855747.node = NNI989855747;
 var NNI536870992 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI536870992.node = NNI536870992;
 var NNI33555177 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
@@ -37,13 +37,13 @@ var NNI33555072 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555072.node = NNI33555072;
 NTI33555177.base = NTI33555072;
 NTI536870992.base = NTI33555177;
-NTI503316490.base = NTI536870992;
-var NNI503316491 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI503316491.node = NNI503316491;
-NTI503316491.base = NTI536870992;
-var NNI503316492 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI503316492.node = NNI503316492;
-NTI503316492.base = NTI536870992;
+NTI989855747.base = NTI536870992;
+var NNI939524099 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI939524099.node = NNI939524099;
+NTI939524099.base = NTI536870992;
+var NNI956301315 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI956301315.node = NNI956301315;
+NTI956301315.base = NTI536870992;
 var NNI33555113 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555113.node = NNI33555113;
 var NNI33555102 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
@@ -87,9 +87,9 @@ var NNI33555103 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555103.node = NNI33555103;
 NTI33555103.base = NTI33555101;
 NTI33555114.base = NTI33555103;
-var NNI503316493 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI503316493.node = NNI503316493;
-NTI503316493.base = NTI536870992;
+var NNI905969667 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI905969667.node = NNI905969667;
+NTI905969667.base = NTI536870992;
 function toJSStr(s_33556794) {
                     var Tmp5;
             var Tmp7;
@@ -3986,186 +3986,246 @@ framePtr = F.prev;
 var F={procname:"module strformat",prev:framePtr,filename:"/home/jose/.choosenim/toolchains/nim-#devel/lib/pure/strformat.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module grid",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/grid.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module axes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module scale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module serie",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-function newUplotOptions_503316499() {
-  var result_503316500 = null;
+var F={procname:"module tick",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/tick.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplotoptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module uplot",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/uplot.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
+framePtr = F;
+framePtr = F.prev;
+function newUplotOptions_989855747() {
+  var result_989855748 = null;
 
-  var F={procname:"uplot.newUplotOptions",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+  var F={procname:"uplotoptions.newUplotOptions",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
   framePtr = F;
-    F.line = 19;
-    result_503316500 = {m_type: NTI503316490};
-    F.line = 20;
-    result_503316500["scales"] = {};
+    F.line = 7;
+    result_989855748 = {m_type: NTI989855747};
+    F.line = 8;
+    result_989855748["scales"] = {};
   framePtr = F.prev;
 
-  return result_503316500;
+  return result_989855748;
 
 }
 function newSeq_33556812(len_33556814) {
@@ -4179,74 +4239,74 @@ function newSeq_33556812(len_33556814) {
   return result_33556815;
 
 }
-function title_503316524(opts_503316525, opts_503316525_Idx, title_503316526) {
-  var F={procname:"uplot.title",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function title_989855772(opts_989855773, opts_989855773_Idx, title_989855774) {
+  var F={procname:"uplotoptions.title",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
   framePtr = F;
-    F.line = 23;
-    opts_503316525[opts_503316525_Idx]["title"] = toJSStr(title_503316526);
+    F.line = 11;
+    opts_989855773[opts_989855773_Idx]["title"] = toJSStr(title_989855774);
   framePtr = F.prev;
 
   
 }
-function width_503316532(opts_503316533, opts_503316533_Idx, width_503316534) {
-  var F={procname:"uplot.width",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function width_989855780(opts_989855781, opts_989855781_Idx, width_989855782) {
+  var F={procname:"uplotoptions.width",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+  framePtr = F;
+    F.line = 14;
+    opts_989855781[opts_989855781_Idx]["width"] = width_989855782;
+  framePtr = F.prev;
+
+  
+}
+function height_989855788(opts_989855789, opts_989855789_Idx, height_989855790) {
+  var F={procname:"uplotoptions.height",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+  framePtr = F;
+    F.line = 17;
+    opts_989855789[opts_989855789_Idx]["height"] = height_989855790;
+  framePtr = F.prev;
+
+  
+}
+function unsetTimeScale_939524099(scale_939524100, scale_939524100_Idx) {
+  var F={procname:"scale.unsetTimeScale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/scale.nim",line:0};
+  framePtr = F;
+    F.line = 11;
+    scale_939524100[scale_939524100_Idx]["time"] = false;
+  framePtr = F.prev;
+
+  
+}
+function addScale_989855940(opts_989855941, opts_989855941_Idx, name_989855942, scale_989855943) {
+  var F={procname:"uplotoptions.addScale",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
+  framePtr = F;
+    F.line = 38;
+    opts_989855941[opts_989855941_Idx]["scales"][toJSStr(name_989855942)] = scale_989855943;
+  framePtr = F.prev;
+
+  
+}
+function label_956301315(serie_956301316, serie_956301316_Idx, label_956301317) {
+  var F={procname:"serie.label",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
+  framePtr = F;
+    F.line = 7;
+    serie_956301316[serie_956301316_Idx]["label"] = toJSStr(label_956301317);
+  framePtr = F.prev;
+
+  
+}
+function stroke_956301368(serie_956301369, serie_956301369_Idx, stroke_956301370) {
+  var F={procname:"serie.stroke",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
     F.line = 26;
-    opts_503316533[opts_503316533_Idx]["width"] = width_503316534;
+    serie_956301369[serie_956301369_Idx]["stroke"] = toJSStr(stroke_956301370);
   framePtr = F.prev;
 
   
 }
-function height_503316540(opts_503316541, opts_503316541_Idx, height_503316542) {
-  var F={procname:"uplot.height",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function width_956301376(serie_956301377, serie_956301377_Idx, width_956301378) {
+  var F={procname:"serie.width",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
     F.line = 29;
-    opts_503316541[opts_503316541_Idx]["height"] = height_503316542;
-  framePtr = F.prev;
-
-  
-}
-function unsetTimeScale_503316573(scale_503316574, scale_503316574_Idx) {
-  var F={procname:"uplot.unsetTimeScale",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
-  framePtr = F;
-    F.line = 43;
-    scale_503316574[scale_503316574_Idx]["time"] = false;
-  framePtr = F.prev;
-
-  
-}
-function addScale_503316564(opts_503316565, opts_503316565_Idx, name_503316566, scale_503316567) {
-  var F={procname:"uplot.addScale",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
-  framePtr = F;
-    F.line = 39;
-    opts_503316565[opts_503316565_Idx]["scales"][toJSStr(name_503316566)] = scale_503316567;
-  framePtr = F.prev;
-
-  
-}
-function label_503316700(serie_503316701, serie_503316701_Idx, label_503316702) {
-  var F={procname:"uplot.label",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
-  framePtr = F;
-    F.line = 62;
-    serie_503316701[serie_503316701_Idx]["label"] = toJSStr(label_503316702);
-  framePtr = F.prev;
-
-  
-}
-function stroke_503316744(serie_503316745, serie_503316745_Idx, stroke_503316746) {
-  var F={procname:"uplot.stroke",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
-  framePtr = F;
-    F.line = 81;
-    serie_503316745[serie_503316745_Idx]["stroke"] = toJSStr(stroke_503316746);
-  framePtr = F.prev;
-
-  
-}
-function width_503316752(serie_503316753, serie_503316753_Idx, width_503316754) {
-  var F={procname:"uplot.width",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
-  framePtr = F;
-    F.line = 84;
-    serie_503316753[serie_503316753_Idx]["width"] = width_503316754;
+    serie_956301377[serie_956301377_Idx]["width"] = width_956301378;
   framePtr = F.prev;
 
   
@@ -4723,79 +4783,79 @@ function nsuRepeatChar(c_838861812, count_838861813) {
   return result_838861814;
 
 }
-function formatInt_503316793(n_503316795, radix_503316796, spec_503316797) {
+function formatInt_956301417(n_956301419, radix_956301420, spec_956301421) {
     var Tmp1;
     var Tmp8;
 
-  var result_503316798 = [];
+  var result_956301422 = [];
 
   var F={procname:"formatInt.formatInt",prev:framePtr,filename:"/home/jose/.choosenim/toolchains/nim-#devel/lib/pure/strformat.nim",line:0};
   framePtr = F;
     F.line = 338;
-    var n_503316801 = n_503316795;
+    var n_956301425 = n_956301419;
     F.line = 339;
-    var negative_503316802 = (n_503316801 < 0);
+    var negative_956301426 = (n_956301425 < 0);
     F.line = 340;
-    if (negative_503316802) {
-    Tmp1 = ((~(n_503316801) + 1) );
+    if (negative_956301426) {
+    Tmp1 = ((~(n_956301425) + 1) );
     }
     else {
-    Tmp1 = n_503316801;
+    Tmp1 = n_956301425;
     }
     
-    var v_503316803 = Tmp1;
+    var v_956301427 = Tmp1;
     F.line = 347;
-    var xx_503316804 = [];
-    if (spec_503316797.alternateForm) {
+    var xx_956301428 = [];
+    if (spec_956301421.alternateForm) {
     F.line = 349;
-    switch (spec_503316797.typ) {
+    switch (spec_956301421.typ) {
     case 88:
       F.line = 350;
-      xx_503316804 = nimCopy(null, makeNimstrLit("0x"), NTI33554438);
+      xx_956301428 = nimCopy(null, makeNimstrLit("0x"), NTI33554438);
       break;
     case 120:
       F.line = 351;
-      xx_503316804 = nimCopy(null, makeNimstrLit("0x"), NTI33554438);
+      xx_956301428 = nimCopy(null, makeNimstrLit("0x"), NTI33554438);
       break;
     case 98:
       F.line = 352;
-      xx_503316804 = nimCopy(null, makeNimstrLit("0b"), NTI33554438);
+      xx_956301428 = nimCopy(null, makeNimstrLit("0b"), NTI33554438);
       break;
     case 111:
       F.line = 353;
-      xx_503316804 = nimCopy(null, makeNimstrLit("0o"), NTI33554438);
+      xx_956301428 = nimCopy(null, makeNimstrLit("0o"), NTI33554438);
       break;
     default: 
       break;
     }
     }
     
-    if ((v_503316803 == 0)) {
+    if ((v_956301427 == 0)) {
     F.line = 357;
-    result_503316798 = nimCopy(null, makeNimstrLit("0"), NTI33554438);
+    result_956301422 = nimCopy(null, makeNimstrLit("0"), NTI33554438);
     }
     else {
       F.line = 359;
-      result_503316798 = nimCopy(null, [], NTI33554438);
+      result_956301422 = nimCopy(null, [], NTI33554438);
       L2: do {
         F.line = 360;
           L3: while (true) {
-          if (!(0 < v_503316803)) break L3;
+          if (!(0 < v_956301427)) break L3;
             F.line = 361;
-            var d_503316805 = (v_503316803 % radix_503316796);
+            var d_956301429 = (v_956301427 % radix_956301420);
             F.line = 362;
-            v_503316803 = Math.trunc(((v_503316803 / radix_503316796) ));
+            v_956301427 = Math.trunc(((v_956301427 / radix_956301420) ));
             F.line = 363;
-            result_503316798.push.apply(result_503316798, mkDigit_553648129(chckRange(d_503316805, -2147483648, 2147483647), spec_503316797.typ));;
+            result_956301422.push.apply(result_956301422, mkDigit_553648129(chckRange(d_956301429, -2147483648, 2147483647), spec_956301421.typ));;
           }
       } while(false);
       L4: do {
         F.line = 364;
-        var idx_503316810 = 0;
+        var idx_956301434 = 0;
         F.line = 117;
         var colontmp__385876113 = 0;
         F.line = 364;
-        colontmp__385876113 = divInt((result_503316798).length, 2);
+        colontmp__385876113 = divInt((result_956301422).length, 2);
         F.line = 119;
         var i_385876114 = 0;
         L5: do {
@@ -4803,59 +4863,59 @@ function formatInt_503316793(n_503316795, radix_503316796, spec_503316797) {
             L6: while (true) {
             if (!(i_385876114 < colontmp__385876113)) break L6;
               F.line = 364;
-              idx_503316810 = i_385876114;
+              idx_956301434 = i_385876114;
               F.line = 365;
-              var Tmp7 = result_503316798[chckIndx(idx_503316810, 0, (result_503316798).length-1)]; result_503316798[chckIndx(idx_503316810, 0, (result_503316798).length-1)] = result_503316798[chckIndx(subInt(subInt((result_503316798).length, idx_503316810), 1), 0, (result_503316798).length-1)]; result_503316798[chckIndx(subInt(subInt((result_503316798).length, idx_503316810), 1), 0, (result_503316798).length-1)] = Tmp7;              F.line = 122;
+              var Tmp7 = result_956301422[chckIndx(idx_956301434, 0, (result_956301422).length-1)]; result_956301422[chckIndx(idx_956301434, 0, (result_956301422).length-1)] = result_956301422[chckIndx(subInt(subInt((result_956301422).length, idx_956301434), 1), 0, (result_956301422).length-1)]; result_956301422[chckIndx(subInt(subInt((result_956301422).length, idx_956301434), 1), 0, (result_956301422).length-1)] = Tmp7;              F.line = 122;
               i_385876114 = addInt(i_385876114, 1);
             }
         } while(false);
       } while(false);
     }
     
-    if (spec_503316797.padWithZero) {
+    if (spec_956301421.padWithZero) {
     F.line = 367;
-    if (negative_503316802) Tmp8 = true; else {      Tmp8 = !((spec_503316797.sign == 45));    }    var sign_503316815 = Tmp8;
+    if (negative_956301426) Tmp8 = true; else {      Tmp8 = !((spec_956301421.sign == 45));    }    var sign_956301439 = Tmp8;
     F.line = 368;
-    var toFill_503316819 = subInt(subInt(subInt(spec_503316797.minimumWidth, (result_503316798).length), (xx_503316804).length), (sign_503316815 ? 1:0));
-    if ((0 < toFill_503316819)) {
+    var toFill_956301443 = subInt(subInt(subInt(spec_956301421.minimumWidth, (result_956301422).length), (xx_956301428).length), (sign_956301439 ? 1:0));
+    if ((0 < toFill_956301443)) {
     F.line = 370;
-    result_503316798 = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_503316819, 0, 2147483647)) || []).concat(result_503316798 || []), NTI33554438);
+    result_956301422 = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_956301443, 0, 2147483647)) || []).concat(result_956301422 || []), NTI33554438);
     }
     
     }
     
-    if (negative_503316802) {
+    if (negative_956301426) {
     F.line = 373;
-    result_503316798 = nimCopy(null, (makeNimstrLit("-") || []).concat(xx_503316804 || [],result_503316798 || []), NTI33554438);
+    result_956301422 = nimCopy(null, (makeNimstrLit("-") || []).concat(xx_956301428 || [],result_956301422 || []), NTI33554438);
     }
     else {
-    if (!((spec_503316797.sign == 45))) {
+    if (!((spec_956301421.sign == 45))) {
     F.line = 375;
-    result_503316798 = nimCopy(null, [spec_503316797.sign].concat(xx_503316804 || [],result_503316798 || []), NTI33554438);
+    result_956301422 = nimCopy(null, [spec_956301421.sign].concat(xx_956301428 || [],result_956301422 || []), NTI33554438);
     }
     else {
       F.line = 377;
-      result_503316798 = nimCopy(null, (xx_503316804 || []).concat(result_503316798 || []), NTI33554438);
+      result_956301422 = nimCopy(null, (xx_956301428 || []).concat(result_956301422 || []), NTI33554438);
     }
     }
-    if ((spec_503316797.align == 60)) {
+    if ((spec_956301421.align == 60)) {
     L9: do {
       F.line = 380;
-      var i_503316824 = 0;
+      var i_956301448 = 0;
       F.line = 117;
       var colontmp__385876117 = 0;
       F.line = 380;
-      colontmp__385876117 = (result_503316798).length;
+      colontmp__385876117 = (result_956301422).length;
       F.line = 119;
       var i_385876118 = colontmp__385876117;
       L10: do {
         F.line = 120;
           L11: while (true) {
-          if (!(i_385876118 < spec_503316797.minimumWidth)) break L11;
+          if (!(i_385876118 < spec_956301421.minimumWidth)) break L11;
             F.line = 380;
-            i_503316824 = i_385876118;
+            i_956301448 = i_385876118;
             F.line = 381;
-            addChar(result_503316798, spec_503316797.fill);;
+            addChar(result_956301422, spec_956301421.fill);;
             F.line = 122;
             i_385876118 = addInt(i_385876118, 1);
           }
@@ -4864,17 +4924,17 @@ function formatInt_503316793(n_503316795, radix_503316796, spec_503316797) {
     }
     else {
       F.line = 383;
-      var toFill_503316825 = subInt(spec_503316797.minimumWidth, (result_503316798).length);
-      if ((spec_503316797.align == 94)) {
+      var toFill_956301449 = subInt(spec_956301421.minimumWidth, (result_956301422).length);
+      if ((spec_956301421.align == 94)) {
       F.line = 385;
-      var half_503316826 = divInt(toFill_503316825, 2);
+      var half_956301450 = divInt(toFill_956301449, 2);
       F.line = 386;
-      result_503316798 = nimCopy(null, (nsuRepeatChar(spec_503316797.fill, chckRange(half_503316826, 0, 2147483647)) || []).concat(result_503316798 || [],nsuRepeatChar(spec_503316797.fill, chckRange(subInt(toFill_503316825, half_503316826), 0, 2147483647)) || []), NTI33554438);
+      result_956301422 = nimCopy(null, (nsuRepeatChar(spec_956301421.fill, chckRange(half_956301450, 0, 2147483647)) || []).concat(result_956301422 || [],nsuRepeatChar(spec_956301421.fill, chckRange(subInt(toFill_956301449, half_956301450), 0, 2147483647)) || []), NTI33554438);
       }
       else {
-        if ((0 < toFill_503316825)) {
+        if ((0 < toFill_956301449)) {
         F.line = 389;
-        result_503316798 = nimCopy(null, (nsuRepeatChar(spec_503316797.fill, chckRange(toFill_503316825, 0, 2147483647)) || []).concat(result_503316798 || []), NTI33554438);
+        result_956301422 = nimCopy(null, (nsuRepeatChar(spec_956301421.fill, chckRange(toFill_956301449, 0, 2147483647)) || []).concat(result_956301422 || []), NTI33554438);
         }
         
       }
@@ -4883,49 +4943,49 @@ function formatInt_503316793(n_503316795, radix_503316796, spec_503316797) {
     
   framePtr = F.prev;
 
-  return result_503316798;
+  return result_956301422;
 
 }
-function formatValue_503316785(result_503316787, result_503316787_Idx, value_503316788, specifier_503316789) {
+function formatValue_956301409(result_956301411, result_956301411_Idx, value_956301412, specifier_956301413) {
   var F={procname:"formatValue.formatValue",prev:framePtr,filename:"/home/jose/.choosenim/toolchains/nim-#devel/lib/pure/strformat.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    if (((specifier_503316789).length == 0)) {
+    if (((specifier_956301413).length == 0)) {
     F.line = 449;
-    result_503316787[result_503316787_Idx].push.apply(result_503316787[result_503316787_Idx], cstrToNimstr((value_503316788)+""));;
+    result_956301411[result_956301411_Idx].push.apply(result_956301411[result_956301411_Idx], cstrToNimstr((value_956301412)+""));;
     F.line = 450;
     break BeforeRet;
     }
     
     F.line = 451;
-    var spec_503316790 = parseStandardFormatSpecifier_553648182(specifier_503316789, 0, false);
+    var spec_956301414 = parseStandardFormatSpecifier_553648182(specifier_956301413, 0, false);
     F.line = 452;
-    var radix_503316791 = 10;
+    var radix_956301415 = 10;
     F.line = 453;
-    switch (spec_503316790.typ) {
+    switch (spec_956301414.typ) {
     case 120:
     case 88:
       F.line = 454;
-      radix_503316791 = 16;
+      radix_956301415 = 16;
       break;
     case 100:
     case 0:
       break;
     case 98:
       F.line = 456;
-      radix_503316791 = 2;
+      radix_956301415 = 2;
       break;
     case 111:
       F.line = 457;
-      radix_503316791 = 8;
+      radix_956301415 = 8;
       break;
     default: 
       F.line = 459;
-      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'x\', \'X\', \'b\', \'d\', \'o\' but got: ") || []).concat([spec_503316790.typ]), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "ValueError");
+      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'x\', \'X\', \'b\', \'d\', \'o\' but got: ") || []).concat([spec_956301414.typ]), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "ValueError");
       break;
     }
     F.line = 462;
-    result_503316787[result_503316787_Idx].push.apply(result_503316787[result_503316787_Idx], formatInt_503316793(value_503316788, radix_503316791, spec_503316790));;
+    result_956301411[result_956301411_Idx].push.apply(result_956301411[result_956301411_Idx], formatInt_956301417(value_956301412, radix_956301415, spec_956301414));;
   } while (false);
   framePtr = F.prev;
 
@@ -5279,65 +5339,65 @@ function nsuToUpperAsciiStr(s_838860887) {
   return result_838860888;
 
 }
-function formatValue_503316837(result_503316839, result_503316839_Idx, value_503316840, specifier_503316841) {
+function formatValue_956301461(result_956301463, result_956301463_Idx, value_956301464, specifier_956301465) {
     var Tmp1;
 
   var F={procname:"formatValue.formatValue",prev:framePtr,filename:"/home/jose/.choosenim/toolchains/nim-#devel/lib/pure/strformat.nim",line:0};
   framePtr = F;
   BeforeRet: do {
-    if (((specifier_503316841).length == 0)) {
+    if (((specifier_956301465).length == 0)) {
     F.line = 469;
-    result_503316839[result_503316839_Idx].push.apply(result_503316839[result_503316839_Idx], cstrToNimstr(nimFloatToString(value_503316840)));;
+    result_956301463[result_956301463_Idx].push.apply(result_956301463[result_956301463_Idx], cstrToNimstr(nimFloatToString(value_956301464)));;
     F.line = 470;
     break BeforeRet;
     }
     
     F.line = 471;
-    var spec_503316842 = parseStandardFormatSpecifier_553648182(specifier_503316841, 0, false);
+    var spec_956301466 = parseStandardFormatSpecifier_553648182(specifier_956301465, 0, false);
     F.line = 473;
-    var fmode_503316843 = 0;
+    var fmode_956301467 = 0;
     F.line = 474;
-    switch (spec_503316842.typ) {
+    switch (spec_956301466.typ) {
     case 101:
     case 69:
       F.line = 476;
-      fmode_503316843 = 2;
+      fmode_956301467 = 2;
       break;
     case 102:
     case 70:
       F.line = 478;
-      fmode_503316843 = 1;
+      fmode_956301467 = 1;
       break;
     case 103:
     case 71:
       F.line = 480;
-      fmode_503316843 = 0;
+      fmode_956301467 = 0;
       break;
     case 0:
       break;
     default: 
       F.line = 483;
-      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'e\', \'E\', \'f\', \'F\', \'g\', \'G\' but got: ") || []).concat([spec_503316842.typ]), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "ValueError");
+      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'e\', \'E\', \'f\', \'F\', \'g\', \'G\' but got: ") || []).concat([spec_956301466.typ]), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "ValueError");
       break;
     }
     F.line = 487;
-    var f_503316845 = [nsuformatBiggestFloat(value_503316840, fmode_503316843, chckRange(spec_503316842.precision, -1, 32), 46)];
+    var f_956301469 = [nsuformatBiggestFloat(value_956301464, fmode_956301467, chckRange(spec_956301466.precision, -1, 32), 46)];
     F.line = 488;
-    var sign_503316846 = false;
-    if ((0.0 <= value_503316840)) {
-    if (!((spec_503316842.sign == 45))) {
+    var sign_956301470 = false;
+    if ((0.0 <= value_956301464)) {
+    if (!((spec_956301466.sign == 45))) {
     F.line = 491;
-    sign_503316846 = true;
-    if ((value_503316840 == 0.0)) {
-    if (((1.0000000000000000e+00 / value_503316840) == Infinity)) {
+    sign_956301470 = true;
+    if ((value_956301464 == 0.0)) {
+    if (((1.0000000000000000e+00 / value_956301464) == Infinity)) {
     F.line = 495;
-    insert_33557853(f_503316845, 0, nimCharToStr(spec_503316842.sign), 0);
+    insert_33557853(f_956301469, 0, nimCharToStr(spec_956301466.sign), 0);
     }
     
     }
     else {
       F.line = 497;
-    insert_33557853(f_503316845, 0, nimCharToStr(spec_503316842.sign), 0);
+    insert_33557853(f_956301469, 0, nimCharToStr(spec_956301466.sign), 0);
     }
     
     }
@@ -5345,51 +5405,51 @@ function formatValue_503316837(result_503316839, result_503316839_Idx, value_503
     }
     else {
       F.line = 499;
-      sign_503316846 = true;
+      sign_956301470 = true;
     }
     
-    if (spec_503316842.padWithZero) {
+    if (spec_956301466.padWithZero) {
     F.line = 502;
-    var signStr_503316847 = [];
-    if (sign_503316846) {
+    var signStr_956301471 = [];
+    if (sign_956301470) {
     F.line = 504;
-    signStr_503316847 = nimCopy(null, nimCharToStr(f_503316845[0][chckIndx(0, 0, (f_503316845[0]).length-1)]), NTI33554438);
+    signStr_956301471 = nimCopy(null, nimCharToStr(f_956301469[0][chckIndx(0, 0, (f_956301469[0]).length-1)]), NTI33554438);
     F.line = 505;
-    f_503316845[0] = nimCopy(null, HEX5BHEX5D_805309616(f_503316845[0], HEX2EHEX2E_805309589(1, 1)), NTI33554438);
+    f_956301469[0] = nimCopy(null, HEX5BHEX5D_805309616(f_956301469[0], HEX2EHEX2E_805309589(1, 1)), NTI33554438);
     }
     
     F.line = 507;
-    var toFill_503316869 = subInt(subInt(spec_503316842.minimumWidth, (f_503316845[0]).length), (sign_503316846 ? 1:0));
-    if ((0 < toFill_503316869)) {
+    var toFill_956301493 = subInt(subInt(spec_956301466.minimumWidth, (f_956301469[0]).length), (sign_956301470 ? 1:0));
+    if ((0 < toFill_956301493)) {
     F.line = 509;
-    f_503316845[0] = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_503316869, 0, 2147483647)) || []).concat(f_503316845[0] || []), NTI33554438);
+    f_956301469[0] = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_956301493, 0, 2147483647)) || []).concat(f_956301469[0] || []), NTI33554438);
     }
     
-    if (sign_503316846) {
+    if (sign_956301470) {
     F.line = 511;
-    f_503316845[0] = nimCopy(null, (signStr_503316847 || []).concat(f_503316845[0] || []), NTI33554438);
+    f_956301469[0] = nimCopy(null, (signStr_956301471 || []).concat(f_956301469[0] || []), NTI33554438);
     }
     
     }
     
     F.line = 514;
-    if ((spec_503316842.align == 0)) {
+    if ((spec_956301466.align == 0)) {
     Tmp1 = 62;
     }
     else {
-    Tmp1 = spec_503316842.align;
+    Tmp1 = spec_956301466.align;
     }
     
-    var align_503316870 = Tmp1;
+    var align_956301494 = Tmp1;
     F.line = 515;
-    var res_503316871 = alignString_553648144(f_503316845[0], spec_503316842.minimumWidth, align_503316870, spec_503316842.fill);
-    if ((ConstSet10[spec_503316842.typ] != undefined)) {
+    var res_956301495 = alignString_553648144(f_956301469[0], spec_956301466.minimumWidth, align_956301494, spec_956301466.fill);
+    if ((ConstSet10[spec_956301466.typ] != undefined)) {
     F.line = 517;
-    result_503316839[result_503316839_Idx].push.apply(result_503316839[result_503316839_Idx], nsuToUpperAsciiStr(res_503316871));;
+    result_956301463[result_956301463_Idx].push.apply(result_956301463[result_956301463_Idx], nsuToUpperAsciiStr(res_956301495));;
     }
     else {
       F.line = 519;
-    result_503316839[result_503316839_Idx].push.apply(result_503316839[result_503316839_Idx], res_503316871);;
+    result_956301463[result_956301463_Idx].push.apply(result_956301463[result_956301463_Idx], res_956301495);;
     }
     
   } while (false);
@@ -5397,70 +5457,70 @@ function formatValue_503316837(result_503316839, result_503316839_Idx, value_503
 
   
 }
-function fill_503316760(serie_503316761, serie_503316761_Idx, r_503316762, g_503316763, b_503316764, alpha_503316765) {
-  var F={procname:"uplot.fill",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function fill_956301384(serie_956301385, serie_956301385_Idx, r_956301386, g_956301387, b_956301388, alpha_956301389) {
+  var F={procname:"serie.fill",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
-    if (!((0.0 <= alpha_503316765))) {
-    F.line = 87;
-    failedAssertImpl_218103865(makeNimstrLit("/home/jose/src/nimlang/uplot.nim/src/uplot.nim(87, 10) `alpha >= 0.0` "));
+    if (!((0.0 <= alpha_956301389))) {
+    F.line = 32;
+    failedAssertImpl_218103865(makeNimstrLit("/home/jose/src/uplot.nim/src/options/serie.nim(32, 10) `alpha >= 0.0` "));
     }
     
-    if (!((alpha_503316765 <= 1.0000000000000000e+00))) {
-    F.line = 88;
-    failedAssertImpl_218103865(makeNimstrLit("/home/jose/src/nimlang/uplot.nim/src/uplot.nim(88, 10) `alpha <= 1.0` "));
+    if (!((alpha_956301389 <= 1.0000000000000000e+00))) {
+    F.line = 33;
+    failedAssertImpl_218103865(makeNimstrLit("/home/jose/src/uplot.nim/src/options/serie.nim(33, 10) `alpha <= 1.0` "));
     }
     
-    F.line = 89;
-    F.line = 89;
-    var fmtRes_503316779 = [mnewString(0)];
-    F.line = 89;
-    fmtRes_503316779[0].push.apply(fmtRes_503316779[0], makeNimstrLit("rgba("));;
-    F.line = 89;
-    formatValue_503316785(fmtRes_503316779, 0, r_503316762, []);
-    F.line = 89;
-    fmtRes_503316779[0].push.apply(fmtRes_503316779[0], makeNimstrLit(", "));;
-    F.line = 89;
-    formatValue_503316785(fmtRes_503316779, 0, g_503316763, []);
-    F.line = 89;
-    fmtRes_503316779[0].push.apply(fmtRes_503316779[0], makeNimstrLit(", "));;
-    F.line = 89;
-    formatValue_503316785(fmtRes_503316779, 0, b_503316764, []);
-    F.line = 89;
-    fmtRes_503316779[0].push.apply(fmtRes_503316779[0], makeNimstrLit(", "));;
-    F.line = 89;
-    formatValue_503316837(fmtRes_503316779, 0, alpha_503316765, []);
-    F.line = 89;
-    fmtRes_503316779[0].push.apply(fmtRes_503316779[0], makeNimstrLit(")"));;
-    var tmp_503316885 = nimCopy(null, fmtRes_503316779[0], NTI33554438);
-    F.line = 90;
-    serie_503316761[serie_503316761_Idx]["fill"] = toJSStr(tmp_503316885);
+    F.line = 34;
+    F.line = 34;
+    var fmtRes_956301403 = [mnewString(0)];
+    F.line = 34;
+    fmtRes_956301403[0].push.apply(fmtRes_956301403[0], makeNimstrLit("rgba("));;
+    F.line = 34;
+    formatValue_956301409(fmtRes_956301403, 0, r_956301386, []);
+    F.line = 34;
+    fmtRes_956301403[0].push.apply(fmtRes_956301403[0], makeNimstrLit(", "));;
+    F.line = 34;
+    formatValue_956301409(fmtRes_956301403, 0, g_956301387, []);
+    F.line = 34;
+    fmtRes_956301403[0].push.apply(fmtRes_956301403[0], makeNimstrLit(", "));;
+    F.line = 34;
+    formatValue_956301409(fmtRes_956301403, 0, b_956301388, []);
+    F.line = 34;
+    fmtRes_956301403[0].push.apply(fmtRes_956301403[0], makeNimstrLit(", "));;
+    F.line = 34;
+    formatValue_956301461(fmtRes_956301403, 0, alpha_956301389, []);
+    F.line = 34;
+    fmtRes_956301403[0].push.apply(fmtRes_956301403[0], makeNimstrLit(")"));;
+    var tmp_956301509 = nimCopy(null, fmtRes_956301403[0], NTI33554438);
+    F.line = 35;
+    serie_956301385[serie_956301385_Idx]["fill"] = toJSStr(tmp_956301509);
   framePtr = F.prev;
 
   
 }
-function hide_503316715(serie_503316716, serie_503316716_Idx) {
-  var F={procname:"uplot.hide",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function hide_956301339(serie_956301340, serie_956301340_Idx) {
+  var F={procname:"serie.hide",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
-    F.line = 68;
-    serie_503316716[serie_503316716_Idx]["show"] = false;
+    F.line = 13;
+    serie_956301340[serie_956301340_Idx]["show"] = false;
   framePtr = F.prev;
 
   
 }
-function dash_503316891(serie_503316892, serie_503316892_Idx, max_503316893, min_503316894) {
-  var F={procname:"uplot.dash",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function dash_956301515(serie_956301516, serie_956301516_Idx, max_956301517, min_956301518) {
+  var F={procname:"serie.dash",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
-    F.line = 94;
-    serie_503316892[serie_503316892_Idx]["dash"] = new Uint32Array([max_503316893, min_503316894]);
+    F.line = 39;
+    serie_956301516[serie_956301516_Idx]["dash"] = new Uint32Array([max_956301517, min_956301518]);
   framePtr = F.prev;
 
   
 }
-function value_503316911(serie_503316912, serie_503316912_Idx, lbd_503316916) {
-  var F={procname:"uplot.value",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function value_956301526(serie_956301527, serie_956301527_Idx, lbd_956301531) {
+  var F={procname:"serie.value",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
   framePtr = F;
-    F.line = 102;
-    serie_503316912[serie_503316912_Idx]["value"] = lbd_503316916;
+    F.line = 47;
+    serie_956301527[serie_956301527_Idx]["value"] = lbd_956301531;
   framePtr = F.prev;
 
   
@@ -5504,106 +5564,106 @@ function formatValue_385875979(result_385875981, result_385875981_Idx, value_385
       break;
     }
     F.line = 462;
-    result_385875981[result_385875981_Idx].push.apply(result_385875981[result_385875981_Idx], formatInt_503316793(value_385875982, radix_385875985, spec_385875984));;
+    result_385875981[result_385875981_Idx].push.apply(result_385875981[result_385875981_Idx], formatInt_956301417(value_385875982, radix_385875985, spec_385875984));;
   } while (false);
   framePtr = F.prev;
 
   
 }
-function setSeries_503316622(opts_503316623, opts_503316623_Idx, series_503316624) {
-  var F={procname:"uplot.setSeries",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function setSeries_989855871(opts_989855872, opts_989855872_Idx, series_989855873) {
+  var F={procname:"uplotoptions.setSeries",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
   framePtr = F;
-    F.line = 56;
-    var tmp_503316629 = [{m_type: NTI503316492}];
+    F.line = 32;
+    var tmp_989855878 = [{m_type: NTI956301315}];
     L1: do {
-      F.line = 57;
-      var i_503316642 = null;
-      var i_503316642_Idx = 0;
+      F.line = 33;
+      var i_989855891 = null;
+      var i_989855891_Idx = 0;
       F.line = 8;
       var i_385876138 = 0;
       L2: do {
         F.line = 9;
           L3: while (true) {
-          if (!(i_385876138 < (series_503316624).length)) break L3;
-            F.line = 57;
-            i_503316642 = series_503316624; i_503316642_Idx = chckIndx(i_385876138, 0, (series_503316624).length-1);
-            F.line = 58;
-            tmp_503316629.push(i_503316642[i_503316642_Idx]);;
+          if (!(i_385876138 < (series_989855873).length)) break L3;
+            F.line = 33;
+            i_989855891 = series_989855873; i_989855891_Idx = chckIndx(i_385876138, 0, (series_989855873).length-1);
+            F.line = 34;
+            tmp_989855878.push(i_989855891[i_989855891_Idx]);;
             F.line = 11;
             i_385876138 = addInt(i_385876138, 1);
           }
       } while(false);
     } while(false);
-    F.line = 59;
-    opts_503316623[opts_503316623_Idx]["series"] = (tmp_503316629);
+    F.line = 35;
+    opts_989855872[opts_989855872_Idx]["series"] = (tmp_989855878);
   framePtr = F.prev;
 
   
 }
-function label_503316990(axe_503316991, axe_503316991_Idx, label_503316992) {
-  var F={procname:"uplot.label",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function label_905969667(axe_905969668, axe_905969668_Idx, label_905969669) {
+  var F={procname:"axes.label",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
   framePtr = F;
-    F.line = 113;
-    axe_503316991[axe_503316991_Idx]["label"] = toJSStr(label_503316992);
+    F.line = 7;
+    axe_905969668[axe_905969668_Idx]["label"] = toJSStr(label_905969669);
   framePtr = F.prev;
 
   
 }
-function top_503317014(axe_503317015, axe_503317015_Idx) {
-  var F={procname:"uplot.top",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function top_905969700(axe_905969701, axe_905969701_Idx) {
+  var F={procname:"axes.top",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
   framePtr = F;
-    F.line = 122;
-    axe_503317015[axe_503317015_Idx]["side"] = 0;
+    F.line = 16;
+    axe_905969701[axe_905969701_Idx]["side"] = 0;
   framePtr = F.prev;
 
   
 }
-function stroke_503316998(axe_503316999, axe_503316999_Idx, stroke_503317000) {
-  var F={procname:"uplot.stroke",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function stroke_905969684(axe_905969685, axe_905969685_Idx, stroke_905969686) {
+  var F={procname:"axes.stroke",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/axes.nim",line:0};
   framePtr = F;
-    F.line = 116;
-    axe_503316999[axe_503316999_Idx]["stroke"] = toJSStr(stroke_503317000);
+    F.line = 10;
+    axe_905969685[axe_905969685_Idx]["stroke"] = toJSStr(stroke_905969686);
   framePtr = F.prev;
 
   
 }
-function newSeq_503316929(len_503316931) {
-  var result_503316932 = [];
+function newSeq_989855819(len_989855821) {
+  var result_989855822 = [];
 
   var F={procname:"newSeq.newSeq",prev:framePtr,filename:"/home/jose/.choosenim/toolchains/nim-#devel/lib/system.nim",line:0};
   framePtr = F;
     F.line = 665;
-    result_503316932 = new Array(len_503316931); for (var i=0;i<len_503316931;++i) {result_503316932[i]=null;}  framePtr = F.prev;
+    result_989855822 = new Array(len_989855821); for (var i=0;i<len_989855821;++i) {result_989855822[i]=null;}  framePtr = F.prev;
 
-  return result_503316932;
+  return result_989855822;
 
 }
-function setAxes_503316922(opts_503316923, opts_503316923_Idx, axes_503316924) {
-  var F={procname:"uplot.setAxes",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+function setAxes_989855812(opts_989855813, opts_989855813_Idx, axes_989855814) {
+  var F={procname:"uplotoptions.setAxes",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/uplotoptions.nim",line:0};
   framePtr = F;
-    F.line = 107;
-    var tmp_503316955 = newSeq_503316929(0);
+    F.line = 26;
+    var tmp_989855836 = newSeq_989855819(0);
     L1: do {
-      F.line = 108;
-      var i_503316968 = null;
-      var i_503316968_Idx = 0;
+      F.line = 27;
+      var i_989855849 = null;
+      var i_989855849_Idx = 0;
       F.line = 8;
       var i_385876142 = 0;
       L2: do {
         F.line = 9;
           L3: while (true) {
-          if (!(i_385876142 < (axes_503316924).length)) break L3;
-            F.line = 108;
-            i_503316968 = axes_503316924; i_503316968_Idx = chckIndx(i_385876142, 0, (axes_503316924).length-1);
-            F.line = 109;
-            tmp_503316955.push(i_503316968[i_503316968_Idx]);;
+          if (!(i_385876142 < (axes_989855814).length)) break L3;
+            F.line = 27;
+            i_989855849 = axes_989855814; i_989855849_Idx = chckIndx(i_385876142, 0, (axes_989855814).length-1);
+            F.line = 28;
+            tmp_989855836.push(i_989855849[i_989855849_Idx]);;
             F.line = 11;
             i_385876142 = addInt(i_385876142, 1);
           }
       } while(false);
     } while(false);
-    F.line = 110;
-    opts_503316923[opts_503316923_Idx]["axes"] = (tmp_503316955);
+    F.line = 29;
+    opts_989855813[opts_989855813_Idx]["axes"] = (tmp_989855836);
   framePtr = F.prev;
 
   
@@ -5612,9 +5672,9 @@ function makeChart_385875969() {
     function HEX3Aanonymous_385875974(self_385875975, rawValue_385875976) {
       var result_385875977 = null;
 
-      var F={procname:"makeChart.:anonymous",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/src/uplot.nim",line:0};
+      var F={procname:"makeChart.:anonymous",prev:framePtr,filename:"/home/jose/src/uplot.nim/src/options/serie.nim",line:0};
       framePtr = F;
-        F.line = 98;
+        F.line = 43;
         F.line = 26;
         var fmtRes_385875978 = [mnewString(0)];
         F.line = 26;
@@ -5628,56 +5688,56 @@ function makeChart_385875969() {
 
     }
 
-  var F={procname:"ex01_basic.makeChart",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+  var F={procname:"ex01_basic.makeChart",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
   framePtr = F;
     F.line = 4;
-    var opts_385875970 = [newUplotOptions_503316499()];
+    var opts_385875970 = [newUplotOptions_989855747()];
     F.line = 5;
-    title_503316524(opts_385875970, 0, makeNimstrLit("Tooltips"));
+    title_989855772(opts_385875970, 0, makeNimstrLit("Tooltips"));
     F.line = 6;
-    width_503316532(opts_385875970, 0, 600);
+    width_989855780(opts_385875970, 0, 600);
     F.line = 7;
-    height_503316540(opts_385875970, 0, 400);
+    height_989855788(opts_385875970, 0, 400);
     F.line = 10;
-    var scale_385875971 = [{m_type: NTI503316491}];
+    var scale_385875971 = [{m_type: NTI939524099}];
     F.line = 11;
-    unsetTimeScale_503316573(scale_385875971, 0);
+    unsetTimeScale_939524099(scale_385875971, 0);
     F.line = 12;
-    addScale_503316564(opts_385875970, 0, makeNimstrLit("x"), scale_385875971[0]);
+    addScale_989855940(opts_385875970, 0, makeNimstrLit("x"), scale_385875971[0]);
     F.line = 14;
-    var serie1_385875972 = [{m_type: NTI503316492}];
+    var serie1_385875972 = [{m_type: NTI956301315}];
     F.line = 15;
-    label_503316700(serie1_385875972, 0, makeNimstrLit("One"));
+    label_956301315(serie1_385875972, 0, makeNimstrLit("One"));
     F.line = 16;
-    stroke_503316744(serie1_385875972, 0, makeNimstrLit("red"));
+    stroke_956301368(serie1_385875972, 0, makeNimstrLit("red"));
     F.line = 17;
-    width_503316752(serie1_385875972, 0, 3);
+    width_956301376(serie1_385875972, 0, 3);
     F.line = 19;
-    var serie2_385875973 = [{m_type: NTI503316492}];
+    var serie2_385875973 = [{m_type: NTI956301315}];
     F.line = 20;
-    label_503316700(serie2_385875973, 0, makeNimstrLit("Two"));
+    label_956301315(serie2_385875973, 0, makeNimstrLit("Two"));
     F.line = 21;
-    stroke_503316744(serie2_385875973, 0, makeNimstrLit("blue"));
+    stroke_956301368(serie2_385875973, 0, makeNimstrLit("blue"));
     F.line = 22;
-    fill_503316760(serie2_385875973, 0, 0, 255, 0, 2.9999999999999999e-01);
+    fill_956301384(serie2_385875973, 0, 0, 255, 0, 2.9999999999999999e-01);
     F.line = 23;
-    hide_503316715(serie2_385875973, 0);
+    hide_956301339(serie2_385875973, 0);
     F.line = 24;
-    dash_503316891(serie2_385875973, 0, 10, 5);
+    dash_956301515(serie2_385875973, 0, 10, 5);
     F.line = 26;
-    value_503316911(serie2_385875973, 0, HEX3Aanonymous_385875974);
+    value_956301526(serie2_385875973, 0, HEX3Aanonymous_385875974);
     F.line = 30;
-    setSeries_503316622(opts_385875970, 0, [serie1_385875972[0], serie2_385875973[0]]);
+    setSeries_989855871(opts_385875970, 0, [serie1_385875972[0], serie2_385875973[0]]);
     F.line = 33;
-    var axe1_385875992 = [{m_type: NTI503316493}];
+    var axe1_385875992 = [{m_type: NTI905969667}];
     F.line = 34;
-    label_503316990(axe1_385875992, 0, makeNimstrLit("Day"));
+    label_905969667(axe1_385875992, 0, makeNimstrLit("Day"));
     F.line = 35;
-    top_503317014(axe1_385875992, 0);
+    top_905969700(axe1_385875992, 0);
     F.line = 36;
-    stroke_503316998(axe1_385875992, 0, makeNimstrLit("red"));
+    stroke_905969684(axe1_385875992, 0, makeNimstrLit("red"));
     F.line = 37;
-    setAxes_503316922(opts_385875970, 0, [axe1_385875992[0]]);
+    setAxes_989855812(opts_385875970, 0, [axe1_385875992[0]]);
     F.line = 42;
     var data_385875996 = ([new Int32Array([1, 2, 3, 4, 5, 6, 7]), new Int32Array([40, 43, 60, 65, 71, 73, 80]), new Int32Array([18, 24, 37, 55, 55, 60, 63])]);
     F.line = 48;
@@ -5686,14 +5746,14 @@ function makeChart_385875969() {
 
   
 }
-var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
 framePtr = F;
 F.line = 50;
 makeChart_385875969();
 framePtr = F.prev;
-var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
-var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/nimlang/uplot.nim/examples/ex01_basic.nim",line:0};
+var F={procname:"module ex01_basic",prev:framePtr,filename:"/home/jose/src/uplot.nim/examples/ex01_basic.nim",line:0};
 framePtr = F;
 framePtr = F.prev;
