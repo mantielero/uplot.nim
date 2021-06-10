@@ -1,6 +1,6 @@
 import jsffi, dom, strformat
-import options/[axes, grid, scale, serie, tick, uplotoptions]
-export axes, grid, scale, serie, tick, uplotoptions
+import options/[axes, grid, scale, serie, tick, uplotoptions, cursor]
+export axes, grid, scale, serie, tick, uplotoptions, cursor
 
 when not defined(js):
   {.error: "This module only works on the JavaScript platform".}
@@ -14,7 +14,15 @@ type
 proc newUplot*(opts:UplotOptions, data:JsObject, element:Element): Uplot {. importcpp: "new uPlot(@)" .}
 
 
+proc sub*(s:Sync, plot:Uplot)  {. importcpp: "#.sub(@)" .}
+#mooSync.sub(uplot1);
+#mooSync.sub(uplot2);
+#mooSync.sub(uplot3);
 
+proc unsub*(s:Sync, plot:Uplot)  {. importcpp: "#.unsub(@)" .}
+#mooSync.unsub(uplot1);
+#mooSync.unsub(uplot2);
+#mooSync.unsub(uplot3);
 
 
 

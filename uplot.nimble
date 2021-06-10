@@ -1,6 +1,6 @@
 # Package
 
-version     = "0.1.0"
+version     = "0.1.1"
 author      = "José María García Pérez"
 description = "Timeseries plotting for the web -based on uPlot-"
 license     = "BSD 3-Clause License"
